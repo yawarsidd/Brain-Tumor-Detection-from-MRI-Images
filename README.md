@@ -8,11 +8,12 @@ Build the VGG16 model with frozen the upper layer that tell the model to keep th
 The new layers are added at the bottom of VGG 16 and the upper layers are frozen i.e Convolution, Pooling, dense, etc.
 The model accuracy for the test images in brain tumer detection is around 86%.
 
-# With Pre Process
+# With Pre Process 
 CLAHE (Contrast Limited Adaptive Histogram Equalization): Enhances the contrast of the images.
 Gaussian Blur: Applies Gaussian blur to reduce noise.
 Histogram Equalization: Improves the contrast of the image.
 Normalization: Normalizes pixel values to zero mean and unit variance.
 PCA (Principal Component Analysis): Reduces the dimensionality of the images to retain variance.
+Data Augmentation: Using image Data Generator to produce images of different shapes and scales.
 
-These preprocessing steps can help improve the accuracy of your model by enhancing image quality, reducing noise, and normalizing data. Adjust the parameters and preprocessing techniques as needed based on your specific dataset and requirements.
+These preprocessing steps can help improve the accuracy of your model by enhancing image quality, reducing noise, and normalizing data. Adjust the parameters and preprocessing techniques as needed based on your specific dataset and requirement.
