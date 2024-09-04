@@ -17,3 +17,6 @@ PCA (Principal Component Analysis): Reduces the dimensionality of the images to 
 Data Augmentation: Using image Data Generator to produce images of different shapes and scales.
 
 These preprocessing steps can help improve the accuracy of your model by enhancing image quality, reducing noise, and normalizing data. Adjust the parameters and preprocessing techniques as needed based on your specific dataset and requirement.
+
+# Results
+The accuracy of the model is increased by 86% from 91% with the use of pre-processing steps for brain tumor detection from MRI images.
